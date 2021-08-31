@@ -10,7 +10,7 @@ export default function UserLists() {
   const [data, setData] = useState(rows);
 
   const handelDelete = (id) => {
-    setData(data.filter((item) => item.id !== id));
+    setData(data.filter((item) => item.id != id));
   };
 
   const columns = [

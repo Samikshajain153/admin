@@ -15,7 +15,10 @@ const ProductList = () => {
   };
 
   const columns = [
-    { field: "id", headerName: "ID", width: 90 },
+    { field: "id",
+     headerName: "ID",
+      width: 90 },
+
     {
       field: "name",
       headerName: "Product Name",
